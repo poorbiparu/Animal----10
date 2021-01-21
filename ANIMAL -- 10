@@ -18,8 +18,9 @@ from keras.losses import categorical_crossentropy
 
 from keras.preprocessing.image import ImageDataGenerator
 from keras.callbacks import ModelCheckpoint
-from keras.callbacks import EarlyStopping, LearningRateScheduler
+from keras.callbacks import EarlyStopping
 from keras import applications
+from keras.applications.vgg16 import VGG16
 from keras.layers import BatchNormalization
 from keras.layers import Dropout
 
